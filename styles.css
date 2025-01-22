@@ -1,0 +1,96 @@
+/* ./styles.css */
+h1 {
+    font-size: 42px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: #333 2px 2px 2px;
+
+
+}
+section > h2,
+section > h3 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #adcbdd;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+section > p,
+section> blockquote {
+    font-style: oblique;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 0 1em;
+    font-weight: normal;
+    letter-spacing: normal; 
+
+}
+section> ul,
+section> ol {
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 0 0 1em;
+    font-weight: normal;
+    letter-spacing: normal; 
+}
+
+section#about-section,
+section#series-section,
+section#button-section {
+    background-color: #3f8c8c;
+    color: azure;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 1px 1px #255656bc;
+}
+section#header-section,
+section#character-section,
+section#quote-section {
+    background-color: #a99b8e;
+    color: azure;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 1px 1px #716050be;
+}
+#header-section img,
+#character-section img,
+#series-section img {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    max-width: 100%;
+}
+#button-section button {
+    background-color: #70b8b8;
+    color: azure;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+#table-section table, th, td {
+    width: auto;
+    border: 1px solid #333;
+    margin: 0 auto;
+    color: azure;
+    background-color: #70b8b8;
+}
