@@ -1,8 +1,8 @@
 <!-- Name: Isabel Rawlings -->
 <!-- Assignment: ICA 3 -->
 <!-- Date: January 22, 2025-->
- <!-- - Update page count. Create three pages, an index.html and two other .html files that you may name according to the content of your site. There should be proper navigation for all possible paths between the pages.
-- Organize Files. Move all your images to an 'img' folder and CSS to a 'styles' folder. Update file paths in your HTML.
+ <!-- 
+
 - Write Notes. Add a notes.txt file in the root folder. Write one paragraph each on your experience learning HTML, CSS, and Git thus far in the course.
 - Set Up Git and GitHub. Initialize a Git repository and make at least 3 commits. Add a .gitignore file and exclude notes.txt. Push your project to a public GitHub repository. Host your site using GitHub Pages. -->
 
@@ -10,15 +10,17 @@
 <html>
 <head>
     <title>Finding Nemo Info</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
     <section id="header-section">
     <h1>Finding Nemo</h1>
-    
+        <a href="./pages/characters.html"> <button>Characters</button></a>
+        <br>
+        <a href="./pages/boxofficestats.html"> <button>Box Office Stats</button></a>
         <p></p>
          <a href="http://https://www.imdb.com/title/tt0266543/" target="_blank" rel="noopener noreferrer">
-            <img src="./crush.jpg" alt="Crush, Nemo, Dory, and Squirt" width="300" height="auto">
+            <img src="img/crush.jpg" alt="Crush, Nemo, Dory, and Squirt" width="300" height="auto">
          </a>
     </section>
         <br>
@@ -26,19 +28,6 @@
     <H2>About the movie</H2>
         <p>Finding Nemo is an under-the-sea adventure following Clownfish Marlin and his son Nemo. When Nemo is captured by humans, Marlin goes on a journey to find him and reunite their family. Along the way he meets Dory, and with the help of her stellar memory they navigate the ocean. We also see Nemo grow more confident as he learns from and becomes friends with fish living in a dentists office. </p>
     </section>
-        <br>
-    <section id="character-section">
-        <img src="./nemotank.jpg" alt="Nemo with fish tank friends" width="300" height="auto">
-    <h3>Characters</h3>
-        <ul>
-            <li>Marlin</li>
-            <li>Nemo</li>
-            <li>Dory</li>
-            <li>Bruce</li>
-            <li>Crush</li>
-            <li>Squirt</li>
-        </ul>
-        </section>
      <br>
     <section id="series-section">
         <h3>Movies in series</h3>
@@ -46,7 +35,7 @@
                 <li>Finding Nemo</li>
                 <li>Finding Dory</li>
             </ol>
-            <img src="./bruce.jpg" alt="Bruce the shark, Marlin, and Dory" width="300" height="auto">
+            <img src="img/bruce.jpg" alt="Bruce the shark, Marlin, and Dory" width="300" height="auto">
     </section>
         <br>
     <section id="quote-section">
@@ -79,19 +68,5 @@
             <br>
     </section>
         <br>
-    <section id="table-section">
-        <table>
-            <tr>
-                <th>Domestic Box Office</th>
-                <th>International Box Office</th>
-                <th>Worldwide Box Office</th>
-            </tr>
-            <tr>
-                <td>$380,529,370</td>
-                <td>$555,565,482</td>
-                <td>$936,094,852</td>
-            </tr>
-        </table>
-    </section>
 </body>
 </html>

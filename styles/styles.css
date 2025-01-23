@@ -76,15 +76,16 @@ section#quote-section {
     min-height: 120px;
     max-width: 100%;
 }
-#button-section button {
+button {
     background-color: #70b8b8;
     color: azure;
-    padding: 10px;
-    margin: 10px;
+    padding: 2px;
+    display: block;
     text-align: center;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
+    font-size: 20px;
     
 }
 #table-section table, th, td {
